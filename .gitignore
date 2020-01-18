@@ -1,3 +1,20 @@
+**/data/cam
+**/data/masks
+**/data/train_test
+**/data/xray_dataset
+
+**/pipeline/masks/*
+**/pipeline/metrics/*
+**/pipeline/selected/*
+**/pipeline/unselected/*
+
+!**/pipeline/masks/empty
+!**/pipeline/metrics/empty
+!**/pipeline/selected/empty
+!**/pipeline/unselected/empty
+
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
